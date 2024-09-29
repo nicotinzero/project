@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  color: #515d74;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(255, 0, 191);
+}
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+/* .social {
+  background: rgba(180, 168, 115, 0.182);
+  padding: 15px;
+  border: 5px solid rgb(88, 71, 71);
+  margin: 20px; */
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding-top: 30px;
+}
+.card {
+  padding: 15px 20px;
+  background: #515d74;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+.card h2 {
+  margin-bottom: 10px;
+}
+.list {
+  padding: 0 20px;
+}
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+.table {
+  width: 100%;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+.link-list {
+  list-style: none;
+  padding: 0%;
+}
+.link-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+.contact h2 {
+  text-align: center;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+.form-group input,
+.form-group textarea {
+  width: 100px;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #0f141e;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+.info-text {
+  margin-left: 40px;
+}
+.info-text h4 {
+  margin-bottom: 10px;
+}
+.btn {
+  background: #0f141e;
+  padding: 15px 20px;
+  color: #f1f1f1;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+/* .position {
+
+  border: 4px solid black;
+  margin-top: 40px;
+  padding: 20px;
+}
+.box {
+  position:fixed ;
+  width: 50px;
+  height: 50px;
+  background: lightcoral;
+} */
+@media (max-width: 7000px) {
+  .info {
+    text-align: left;
+    display: block;
+  }
+}
